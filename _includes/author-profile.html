@@ -25,7 +25,7 @@
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.location %}
-        <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
+        <li class="author__desktop"><span class="icon-pad-right" aria-hidden="true">🇺🇸</span>{{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
         <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
@@ -90,7 +90,10 @@
       {% endif %}
       {% if author.kaggle %}
         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
-      {% endif %}      
+      {% endif %}
+      {% if author.rpubs %}
+        <li><a href="https://rpubs.com/{{ author.rpubs }}"><i class="fab fa-fw fa-r-project icon-pad-right" aria-hidden="true"></i>RPubs</a></li>
+      {% endif %}
       {% if author.stackoverflow %}
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow icon-pad-right" aria-hidden="true"></i>Stackoverflow</a></li>
       {% endif %}      
