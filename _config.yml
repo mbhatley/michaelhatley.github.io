@@ -13,9 +13,9 @@ title                    : "Michael Hatley"
 title_separator          : "-"
 name                     : &name "Michael Hatley, Ph.D. Candidate | Statistics (2026)"
 description              : &description "Statistics, Data Science, and Computer Engineering"
-url                      : https://michaelhatley.github.io 
+url                      : https://mbhatley.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "mbhatley/michaelhatley.github.io"
+repository               : "mbhatley/mbhatley.github.io"
 
 author:
   # Biographic information
