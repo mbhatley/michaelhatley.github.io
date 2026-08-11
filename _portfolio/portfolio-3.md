@@ -1,15 +1,19 @@
 ---
 title: "Business Intelligence Platform"
-excerpt: "NLP and RAG implementation to interact with news corpus"
+excerpt: "End-to-end news intelligence pipeline incorporating NLP and RAG, to view sentiment shifts and thematics trends"
 collection: portfolio
 ---
 ### About
 
+* Built an end-to-end news intelligence pipeline that scrapes news articles across multiple sources daily, using Python, PostgreSQL, and pgvector for scalable, incremental ingestion with stable content-hash-based versioning
+* Designed an NLP enrichment layer combining spaCy Named Entity Recognition (NER), alias mapping, sentiment analysis, and BERTopic to extract structured, entity-level and theme-level signals from unstructured text at scale
+* Developed an interactive R Shiny analytics platform featuring a RAG-powered natural-language interface to surface real-time entity sentiment shifts and thematic trends across a 2-year corpus for quantitative research
+
 
 ### Links
 
-
-[GitHub Code](https://github.com/mbhatley/python_webscraping)
+[GitHub Code](https://github.com/mbhatley/python_webscraping)  
+[Shiny Dashboard](https://github.com/mbhatley/python_webscraping)
 
 ### Packages and Skills
 

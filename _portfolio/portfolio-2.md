@@ -27,3 +27,5 @@ collection: portfolio
 ![Pandas](https://img.shields.io/badge/Pandas-F0F0F0?style=flat&logo=pandas&logoColor=150458)
 ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-F0F0F0?style=flat&logo=bs4&logoColor=8CAAE6)
 ![Selenium](https://img.shields.io/badge/Selenium-F0F0F0?style=flat&logo=selenium&logoColor=43B02A)
+![SpaCy](https://img.shields.io/badge/SpaCy-F0F0F0?style=flat&logo=spacy&logoColor=09A3D5)
+![NLTK](https://img.shields.io/badge/NLTK-F0F0F0?style=flat&logo=nltk&logoColor=09A3D5)

@@ -12,7 +12,7 @@ site_theme               : "mint" # The available themes options are "default", 
 title                    : "Michael Hatley"
 title_separator          : "-"
 name                     : &name "Michael Hatley, Ph.D. Candidate | Statistics (2026)"
-description              : &description "Statistics, Data Science, and Computer Science"
+description              : &description "Statistics, Data Science, and Computer Engineering"
 url                      : https://michaelhatley.github.io 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mbhatley/michaelhatley.github.io"
@@ -22,7 +22,7 @@ author:
   avatar           : "headshot_landing.jpg"
   name             : "Michael Hatley, Ph.D. Candidate"
   pronouns         : # example: "she/her"  
-  bio              : "Statistics, Data Science, and Computer Science"
+  bio              : "Statistics, Data Science, and Computer Engineering"
   location         : "United States"
   employer         : "University of Missouri-Columbia"
   uri              : # URL
